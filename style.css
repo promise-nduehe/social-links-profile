@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(0, 0%, 8%) ;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  background-color: hsl(0, 0%, 12%);
+  padding:2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2.5rem;
+  border-radius: 1rem;
+  padding: 0.7rem;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Jessica{
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+}
+
+h1{
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
+}
+h3{
+  color: hsl(75, 94%, 57%);
+  margin-top: 0;
+  font-family: arial;
+  font-size: 15px;
+}
+
+p{
+  color: hsl(0, 0%, 100%);
+  margin: 1px;
+  font-size: 300;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+
+li{
+  margin: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font: "Inter";
+  font-weight: 600;
+  height: 40px;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5rem;
+  margin-right: 30px;
+}
+
+#git-click:hover{
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
